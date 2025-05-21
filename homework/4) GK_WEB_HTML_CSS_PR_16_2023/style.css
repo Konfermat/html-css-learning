@@ -1,0 +1,35 @@
+.container {
+    background-color: gray;
+    position: relative;
+    left: 50%;
+    width: 600px;
+    height: 800px;
+}
+header {
+    background-color: #84e7f8;
+    height: 2fr;
+    position: relative;
+    top: 0;
+    float: left;
+    width: 500px;
+    margin: 0 50px 10px 50px;
+}
+nav {
+    background-color: #ebfcd7;
+}
+article {
+    background-color: #8dbdf3;
+    height: 7fr;
+    position: relative;
+    float: left;
+}
+section {
+    background-color: #ffb56a;
+}
+aside {
+    background-color: #b9a2dc;
+}
+footer {
+    background-color: #84e7f8;
+    height: 1fr;
+}
