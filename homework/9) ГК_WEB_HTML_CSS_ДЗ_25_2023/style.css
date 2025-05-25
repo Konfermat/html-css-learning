@@ -1,0 +1,81 @@
+.container {
+    font-family: 'Times New Roman', Times, serif;
+    color: aliceblue;
+    background-color: #356AA0;
+    padding: 0.25em 0.65em 0.65em 0.65em;
+    margin: 0 0 0 0;
+    width: 600px;
+    position: relative;
+    left: 25%;
+}
+.left-div {
+    position: relative;
+    top: 2px;
+    text-align: right;
+}
+.right-div {
+    padding: 0 0 0 15px;
+}
+div {
+    margin: 10px 0 10px 0;
+}
+fieldset {
+    display: grid;
+    grid-template-columns: 31% 69%;
+    gap: 10px;
+    padding: 10px;
+}
+#university {
+    width: 17em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 22px;
+}
+#institute{
+    width: 17em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 22px;
+}
+#web-link {
+    width: 17em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 22px;
+}
+#upto {
+    width: 3em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 17px;
+}
+#semester {
+    width: 3em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 17  px;
+}
+#experience {
+    width: 3.5em;
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 22px;
+}
+#branch {
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    width: 10em;
+    height: 22px;
+}
+#degree {
+    border-radius: 0.25em;
+    border: 1px solid lightgray;
+    height: 22px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto;
+    gap: 10px;
+    padding: 10px;
+}

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Task</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <form action="some text">
+            <fieldset>
+                <legend>Registration Details</legend>
+
+                <div class="left-div">
+                    <label for="university">University:</label>
+                </div>
+                <div class="right-div">
+                    <input type="text" id="university" name="university" required>
+                </div>
+
+                <div class="left-div">
+                    <label for="institute">Institute:</label>
+                </div>
+                <div class="right-div">
+                    <input type="text" id="institute" name="institute" required>
+                </div>
+
+                <div class="left-div">
+                    <label for="branch">Branch:</label>
+                </div>
+                <div class="right-div">
+                    <select name="branch" id="branch">
+                        <option value="--select--">--select--</option>
+                        <option value="Branch-1">Branch-1</option>
+                        <option value="Branch-2">Branch-2</option>
+                        <option value="Branch-3">Branch-3</option>
+                        <option value="Branch-4">Branch-4</option>
+                    </select>
+                </div>
+
+                <div class="left-div">
+                    <label for="degree">Degree:</label>
+                </div>  
+                <div class="right-div">
+                    <select name="degree" id="degree">
+                        <option value="--select--">--select--</option>
+                        <option value="Degree-1">Degree-1</option>
+                        <option value="Degree-1">Degree-2</option>
+                        <option value="Degree-1">Degree-3</option>
+                    </select>
+
+                    <input type="radio" id="pursuing" name="degree-status" value="Pursuing" required>
+                    <label for="pursuing">Pursuing</label>
+                    <input type="radio" id="completed" name="degree-status" value="Completed" required>
+                    <label for="completed"> Completed</label>
+                </div>
+
+                <div class="left-div">
+                    <label for="averge-cpi">Averge CPI:</label>
+                </div>
+                <div class="right-div">
+                    <input type="number" id="upto" name="Upto" min="0" required>
+                    <label for="upto">Upto</label>
+                    <input type="number" id="semester" name="Th Semester" min="1" required>
+                    <label for="semester">Th Semester</label>
+                </div>
+
+                <div class="left-div">
+                    <label for="experience">Experience:</label>
+                </div>
+                <div class="right-div">
+                    <input type="number" id="experience" name="Experience" min="0" required>
+                    <label for="years">Years</label>
+                </div>
+
+                <div class="left-div">
+                    <label for="website">Your Website Or Blog:</label>
+                </div>
+                <div class="right-div">
+                    <input type="url" name="Web-link" id="web-link" placeholder="https://">
+                </div>
+            </fieldset>
+        </form>
+    </div>
+</body>
+
+</html>
